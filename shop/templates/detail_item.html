@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Items Detail</title>
+</head>
+<body>
+
+<p>{{ items_detail }}</p>
+    <ul>
+    {% for purchase in items_purchases %}
+        <li>{{ purchase.name }}</li>
+    {% endfor %}
+    </ul>
+
+
+</body>
+</html>
